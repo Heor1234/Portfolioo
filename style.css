@@ -1,0 +1,375 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+    
+}
+
+.nav{
+    height: 6.5vh;
+    width:100vw;
+    background-color:#EDEDE9;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap:40px;
+    position: fixed;
+    z-index: 1;
+   font-size: 22px;
+   font-weight: 800;
+   border: 1px solid white;
+   border: 5%;
+   transition: .3s;
+   animation: slidetop .5s ease forwards;
+
+}
+.ab:hover{
+    object-position: 1000px;
+}
+li{
+    margin: 20px;
+    padding: 20px;
+    list-style-type: none;
+    
+}
+li:hover{
+    text-decoration: underline;
+}
+.name{
+    margin-right: 230px;
+  font-size: 30px ;
+  
+  animation: slideleft .5s ease;
+}
+.container{
+    width:100vw;
+    height: 80vh;
+   
+    
+}
+.img{
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+    height: 50vh;
+    animation: slidetop .5s ease;
+    
+}
+.text{
+    color: aqua;
+
+}
+h1{
+    animation: slideleft .5s ease;
+}
+h2{
+    animation: slidetop .5s ease;
+}
+.menue{
+    visibility: hidden;
+}
+.x{
+    height: 60vh;
+    width: 100vw;
+   
+    display: flex;
+}
+.y{
+    height: 50vh;
+    width: 100vw;
+   background-color: antiquewhite;
+    display: flex;
+    border: 10%;
+    box-shadow: 0px 0px 10px  black;
+    animation: slidetop .5s ease;
+}
+.y1{
+    height:30vh ;
+    width:30vw;
+    background-color: blueviolet;
+    border: 1px solid black;
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    border-radius: 10%;
+    box-shadow: 0px 0px 10px  black;
+    animation: slidetop .5s ease;
+}
+.download{
+    height: 20px;
+    width: 20px;
+   position: relative;
+   top:70px;
+    left:570px;
+}
+.frontend h2:hover{
+    font-weight: 800;
+}
+.about:hover{
+    font-weight: 800;
+}
+.x2{
+    height:40vh;
+    width: 40vw;
+    background-color: rgba(175, 151, 151, 0.203);
+   margin: 67px;
+   border: 10%;
+   box-shadow: 2px 2px 20px  black;
+   
+    }
+.x3{
+height:40vh;
+width: 40vw;
+background-color: rgba(175, 151, 151, 0.203);
+margin: 67px;
+display: flex;
+gap: 80px;
+border: 10%;
+box-shadow: 2px 2px 20px  black;
+}
+.st{
+    height: 30px;
+    width: 80px;
+    color:#EDEDE9;;
+    background-color:rgba(0, 0, 255, 0.737);
+    border: 1px solid rgb(187, 173, 173);
+    margin: 20px;
+    text-align: center;
+    border-radius: 10%;
+    filter: drop-shadow(2px 2px 2px rgb(152, 147, 147));
+    animation: slidetop .5s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frontend{
+    margin: 20px;
+}
+@keyframes slidetop {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.a{
+    font-size: 30px;
+    position: absolute;
+    top: 300px;
+    left: 100px;
+
+}
+.a1{
+    width: 70vw;
+    height: 30vh;
+    background-color: aqua;
+    z-index: 3;
+    visibility:hidden;
+   
+}
+.x2,.x3:hover{
+    height:44vh;
+    width: 44vw;
+}
+
+.skill{
+    height: 40vh;
+    width: 90vw;
+    background-color: bisque;
+    display: flex;
+    animation: slidetop .5s ease;
+}
+.l{
+    width: 20vw;
+    border: 2px solid black;
+}
+footer{
+    height: 10vh;
+    width: 100vw;
+   
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin: 40px;
+}
+.z{
+    height: auto;
+    width:35px ;
+}
+.z:hover{
+    width:40px;
+}
+@keyframes slideleft {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.box{
+    height:400px;
+}
+.project{
+    position: relative; 
+    top: 20px;
+    right:750px; 
+    }
+@media (max-width: 800px){
+    .nav{
+     gap: 0px; 
+     font-size: 15px;
+     font-weight: 800;
+     display: none;
+    }
+    .frontend h2:hover{
+        font-weight: 800;
+    }
+    .about:hover{
+        font-weight: 800;
+    }  
+    .container{
+        width:100vw;
+        height: 90vh;
+        background-color:white;
+        
+    }
+    .hello{
+        height: 6vh;
+        width: 90vw;
+        background-color: azure;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .hello:hover{
+        font-size: 30px;
+    }
+    li{
+        margin: 5px;
+        padding: 5px;
+        list-style-type: none;
+    }
+    footer{
+        margin: 2px;
+    }
+    .img{
+        position: absolute;
+        z-index:9;
+        left: 45px;
+        top: 120px;
+        height: 40vh;
+        animation: slidetop .5s ease;
+       
+    }
+    .menue{
+        visibility: visible;
+    }
+    
+    .menu:hover + .a1{
+     
+        visibility: visible;
+    }
+    .a{
+        font-size: 20px;
+        position: absolute;
+         top: 500px;
+         left: 80px;
+    }
+    .x{
+        height: 95vh;
+        width: 100vw;
+       
+       flex-direction: column;
+       margin: 2px;
+       gap: 10px;
+    }
+    .download{
+        height: 20px;
+        width: 20px;
+       position: relative;
+       top:20px;
+        left:310px;
+        
+    }
+    .x2{
+        height:50vh;
+        width: 100vw;
+        background-color: rgba(173, 175, 151, 0.203);
+       margin: 0px;
+       border: 10%;
+       border: 1px solid wheat;
+       box-shadow: 2px 2px 10px  black;
+       
+        }
+    .x3{
+      
+        height:50vh;
+        width: 100vw;
+    background-color: rgba(175, 151, 151, 0.203);
+    margin: 0px;
+   flex-wrap: wrap;
+    gap: 0px;
+    border: 10%;
+    box-shadow: 2px 2px 10px  black;
+    animation: slidetop .5s ease;
+    
+    }
+    .y{
+        height: 60vh;
+        width: 100vw;
+       background-color: antiquewhite;
+       display: flex;
+       flex-wrap: wrap;
+      
+       border: 10%;
+    box-shadow: 2px 2px 10px  black;
+    animation: slidetop .5s ease;
+       margin-top: 50px;
+        
+    }
+    .y1{
+        height:200px ;
+        width:150px;
+        
+        margin: 10px;
+
+       
+
+        
+       
+    }
+    .project{
+        display: none;
+    position: relative; 
+    bottom: 500px;
+    left:100px; 
+    }
+    .st{
+        height: 30px;
+        width: 80px;
+        color: #EDEDE9;
+        background-color: rgba(0, 0, 255, 0.737);
+        border: 1px solid rgb(187, 173, 173);
+        margin: 5px;
+        text-align: center;
+        border-radius: 10%;
+        filter: drop-shadow(2px 2px 2px rgb(152, 147, 147));
+        animation: slidetop .5s ease;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .x2,.x3:hover{
+        height:52vh;
+        width: 99vw;
+    }
+    
+}
